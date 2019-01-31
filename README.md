@@ -66,13 +66,13 @@ Http GET <ocelot_ip/port>/<endpoint>
 ![Alt Text](http://g.recordit.co/2nvLlcMIEp.gif)
 
 ## Current issues and suggestions 
-1.	Tokens can be past in the header rather than asking for new 
-a.	Example: Postman -> ValuesAPI -> CatalogAPI 
-2.	Consul fails to deregister using CLI. Services are able to deregister themselves
-3.	IdServer can use introspection endpoint to validate reference tokens
-4.	Ocelot Gateway currently doesn’t support Swagger
-5.	Each service currently registers to Consul. This is done using the same code sample in each service. A Registrar service may be helpful here.
-6.	Deployment of services can be done using Helm
+*	Tokens can be past in the header rather than asking for new 
+    *	Example: Postman -> ValuesAPI -> CatalogAPI 
+*	Consul fails to deregister using CLI. Services are able to deregister themselves
+*	IdServer can use introspection endpoint to validate reference tokens
+*	Ocelot Gateway currently doesn’t support Swagger
+*	Each service currently registers to Consul. This is done using the same code sample in each service. A Registrar service may be helpful here.
+*	Deployment of services can be done using Helm
 
 ## Useful links
 
