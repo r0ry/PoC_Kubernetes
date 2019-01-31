@@ -1,0 +1,77 @@
+﻿{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/values/",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/catalog/",
+      "UpstreamHttpMethod": [ "Get" ],
+      "ServiceName": "catalog",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UseServiceDiscovery": true,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "client_Catalog": "True"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/values/",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/values/",
+      "UpstreamHttpMethod": [ "Get" ],
+      "ServiceName": "values",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UseServiceDiscovery": true,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "client_Values": "True"
+      }
+    }
+  ],
+  // "Aggregates": [],
+  "GlobalConfiguration": {
+    //"RequestIdKey": null,
+    "ServiceDiscoveryProvider": {
+
+      // TODO  here without http://
+
+      "Host": "consul.default",
+      "Port": 8500,
+      "Type": "PollConsul",
+      "PollingInterval": 1000
+    }
+    // "RateLimitOptions": {
+    //     "ClientIdHeader": "ClientId",
+    //     "QuotaExceededMessage": null,
+    //     "RateLimitCounterPrefix": "ocelot",
+    //     "DisableRateLimitHeaders": false,
+    //     "HttpStatusCode": 429
+    // },
+    // "QoSOptions": {
+    //     "ExceptionsAllowedBeforeBreaking": 0,
+    //     "DurationOfBreak": 0,
+    //     "TimeoutValue": 0
+    // },
+    // "BaseUrl": null,
+    //     "LoadBalancerOptions": {
+    //     "Type": "LeastConnection",
+    //     "Key": null,
+    //     "Expiry": 0
+    // },
+    // "DownstreamScheme": "http",
+    // "HttpHandlerOptions": {
+    //     "AllowAutoRedirect": false,
+    //     "UseCookieContainer": false,
+    //     "UseTracing": false
+    // }
+  }
+}

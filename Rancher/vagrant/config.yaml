@@ -1,0 +1,19 @@
+default_password: admin
+version: latest
+kubernetes_version: v1.11.2-rancher1-1
+ROS_version: 1.4.0
+server:
+  cpus: 1
+  memory: 1500
+node:
+  count: 3
+  cpus: 1
+  memory: 1500
+ip:
+  # master: 172.22.101.100
+  server: 172.22.101.101
+  node:   172.22.101.111
+linked_clones: true
+net:
+  private_nic_type: 82545EM
+  network_type: private_network
