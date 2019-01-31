@@ -25,7 +25,7 @@ NOTE: Consul needs to be deployed first and the values in the fields must match 
 ![Alt Text](http://g.recordit.co/VGTwAzcq4A.gif)
 
 
-h6 Service deployment values
+###### Service deployment values
 
 
 |------------| Consul                 | OcelotGW                         | Identity Server                 | CatalogAPI                          | ValuesAPI                       |
