@@ -33,10 +33,16 @@ NOTE: Consul needs to be deployed first and the values in the fields must match 
 |Listen Port |                        |                                  |	30412        |                                     |                                 |
 
 
+## Service Discovery
 
-| First Header  | Second Header |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+💥 Services are responsible to register themselves with Consul
+💥 Combination of Rancher and Consul is used for Service Discovery so it is important that the names of the services match exactly. The workflow here is as follows:
+*	When registering to Consul services use Rancher’s service discovery - link
+*	Once they are registered OcelotGw uses this information to reroute, auth and authz 
+
+Example
+
+When deployed CatalogAPI's IP: <u>172.22.101.112:32241</u>. Rancher Service Discovery: catalog.default.svc.cluster.local
 
 
 
