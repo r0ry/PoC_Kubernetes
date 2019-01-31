@@ -35,8 +35,8 @@ NOTE: Consul needs to be deployed first and the values in the fields must match 
 
 ## Service Discovery
 
-*💥 Services are responsible to register themselves with Consul
-*💥 Combination of Rancher and Consul is used for Service Discovery so it is important that the names of the services match exactly. The workflow here is as follows:
+* 💥 Services are responsible to register themselves with Consul
+* 💥 Combination of Rancher and Consul is used for Service Discovery so it is important that the names of the services match exactly. The workflow here is as follows:
 *	When registering to Consul services use Rancher’s service discovery - link
 *	Once they are registered OcelotGw uses this information to reroute, auth and authz 
 
