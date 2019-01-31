@@ -19,7 +19,7 @@
 *	Open in browser 172.22.101.101 (may depend on your VM setup)
     * Default credentials: admin/admin 
 
-*	Deploy workloads ( rancher docs ) 
+*	Deploy workloads ( [Rancher_Docs](https://rancher.com/docs/rancher/v2.x/en/k8s-in-rancher/workloads/deploy-workloads/) ) 
 NOTE: Consul needs to be deployed first and the values in the fields must match exactly for Service Discovery to work properly. This is explained further down.
 
 ![Alt Text](http://g.recordit.co/VGTwAzcq4A.gif)
@@ -37,7 +37,7 @@ NOTE: Consul needs to be deployed first and the values in the fields must match 
 
 * 💥 Services are responsible to register themselves with Consul
 * 💥 Combination of Rancher and Consul is used for Service Discovery so it is important that the names of the services match exactly. The workflow here is as follows:
-*	When registering to Consul services use Rancher’s service discovery - link
+*	When registering to Consul services use Rancher’s service discovery - [link](https://rancher.com/docs/rancher/v2.x/en/k8s-in-rancher/service-discovery/)
 *	Once they are registered OcelotGw uses this information to reroute, auth and authz 
 
 ## Identity Server
@@ -51,7 +51,7 @@ Client_id, Client_secret, Scopes and Claims are stored in memory. These are furt
 
 ## OcelotGateway  
 
-Routing, Authentication and Authorization is done according to the docs: Ocelot
+Routing, Authentication and Authorization is done according to the docs: [Ocelot](https://ocelot.readthedocs.io/en/latest/index.html)
 
 ## Postman Testing
 
