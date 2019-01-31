@@ -40,11 +40,15 @@ NOTE: Consul needs to be deployed first and the values in the fields must match 
 *	When registering to Consul services use Rancher’s service discovery - link
 *	Once they are registered OcelotGw uses this information to reroute, auth and authz 
 
-Example
+## Identity Server
 
-When deployed CatalogAPI's IP: <u>172.22.101.112:32241</u>. Rancher Service Discovery: catalog.default.svc.cluster.local
+For development Id Server is deployed in Kubernetes with port mapping, but ideally it must have its own static IP.
+Client Credentials Flow is used to request tokens. 
 
 
 
-:boom:
+Client_id, Client_secret, Scopes and Claims are stored in memory. These are further used by Ocelot to authenticate and authorize the client.
+
+
+
 ![Alt Text](http://g.recordit.co/2nvLlcMIEp.gif)
