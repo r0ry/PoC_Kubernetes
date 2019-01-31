@@ -36,6 +36,9 @@ NOTE: Consul needs to be deployed first and the values in the fields must match 
 |Listen Port |                        |                                  |	30412        |                                     |                                 |
 
 
+```
+
+```
 ## Service Discovery
 
 * 💥 Services are responsible to register themselves with Consul
