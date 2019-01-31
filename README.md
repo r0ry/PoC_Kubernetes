@@ -34,7 +34,6 @@ NOTE: Consul needs to be deployed first and the values in the fields must match 
 
 
 | First Header  | Second Header |
-| ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
