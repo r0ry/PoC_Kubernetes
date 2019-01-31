@@ -45,7 +45,7 @@ NOTE: Consul needs to be deployed first and the values in the fields must match 
 For development Id Server is deployed in Kubernetes with port mapping, but ideally it must have its own static IP.
 Client Credentials Flow is used to request tokens. 
 
-
+![Alt_Text](https://files.readme.io/447c445-client_credentials_flow.png)
 
 Client_id, Client_secret, Scopes and Claims are stored in memory. These are further used by Ocelot to authenticate and authorize the client.
 
