@@ -79,8 +79,8 @@ a.	Example: Postman -> ValuesAPI -> CatalogAPI
 *	Security - https://github.com/freach/kubernetes-security-best-practice
 *	Learn - https://github.com/burrsutter/9stepsawesome
 *	Examples:
-  *	https://github.com/EdwinVW/pitstop
-  *	https://github.com/dotnet-architecture/eShopOnContainers
+    *	https://github.com/EdwinVW/pitstop
+    *	https://github.com/dotnet-architecture/eShopOnContainers
 *	Videos:
-  *	https://www.youtube.com/channel/UCc3apIciZhgTUw_kk6C9EJQ/videos
+    *	https://www.youtube.com/channel/UCc3apIciZhgTUw_kk6C9EJQ/videos
 
