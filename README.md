@@ -49,6 +49,38 @@ Client Credentials Flow is used to request tokens.
 
 Client_id, Client_secret, Scopes and Claims are stored in memory. These are further used by Ocelot to authenticate and authorize the client.
 
+## OcelotGateway  
 
+Routing, Authentication and Authorization is done according to the docs: Ocelot
+
+## Postman Testing
+
+Request token from IdServer. Use Type OAuth 2.0 with parameters:
+*	Grant Type: Client Credentials
+*	Access Token URL: <idserver_ip/port>/connect/token
+*	Client Id: ocelot
+*	Client Secret: secret
+*	Scope: gwapi
+Http GET <ocelot_ip/port>/<endpoint>
 
 ![Alt Text](http://g.recordit.co/2nvLlcMIEp.gif)
+
+## Current issues and suggestions 
+1.	Tokens can be past in the header rather than asking for new 
+a.	Example: Postman -> ValuesAPI -> CatalogAPI 
+2.	Consul fails to deregister using CLI. Services are able to deregister themselves
+3.	IdServer can use introspection endpoint to validate reference tokens
+4.	Ocelot Gateway currently doesn’t support Swagger
+5.	Each service currently registers to Consul. This is done using the same code sample in each service. A Registrar service may be helpful here.
+6.	Deployment of services can be done using Helm
+
+## Useful links
+
+•	Security - https://github.com/freach/kubernetes-security-best-practice
+•	Learn - https://github.com/burrsutter/9stepsawesome
+•	Examples:
+o	https://github.com/EdwinVW/pitstop
+o	https://github.com/dotnet-architecture/eShopOnContainers
+•	Videos:
+o	https://www.youtube.com/channel/UCc3apIciZhgTUw_kk6C9EJQ/videos
+
