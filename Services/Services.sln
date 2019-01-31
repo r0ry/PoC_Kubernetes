@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotGW", "OcelotGW\Ocelot
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdServer", "IdServer\IdServer.csproj", "{DB3B974C-253A-40AB-9DC5-222FAFA7C93A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Registrar", "Registrar\Registrar.csproj", "{18BBB4FC-0C5F-4425-B206-2AB380D103A4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultTestClient", "VaultTestClient\VaultTestClient.csproj", "{F129E8B2-5E14-4374-8E6F-8C050C9E3AD5}"
 EndProject
 Global
