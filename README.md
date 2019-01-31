@@ -35,7 +35,7 @@ NOTE: Consul needs to be deployed first and the values in the fields must match 
 |Name        | consul           |	ocelot                    |	idserver                  |	catalog                       | values                    |
 |Docker Image| consul   |	r0ry/ocelotgw:v5  |	r0ry/idserver:v4  | r0ry/catalogapi:v1    |	r0ry/valuesapi:v1 | 
 |Publish Port| 8500     | 80                 |	80                | 80                    |  80               | 
-|Listen Port |                        |                                  |	30412        |                                     |                                 |
+|Listen Port | Random                        | Random                                 |	30412        |     Random                                |     Random                            |
 
 
 ```
