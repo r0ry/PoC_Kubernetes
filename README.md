@@ -23,9 +23,7 @@ o	Default credentials: admin/admin
 NOTE: Consul needs to be deployed first and the values in the fields must match exactly for Service Discovery to work properly. This is explained further down.
 
 ![Alt Text](http://g.recordit.co/VGTwAzcq4A.gif)
-```
-Consul
-```
+| Consul | OcelotGW | Identity Server | CatalogAPI | ValuesAPI |
 *	Name: consul
 *	Docker image: consul
 * Publish port: 8500
