@@ -14,7 +14,7 @@
 ### Setup VMs
 ```
 git clone https://github.com/r0ry/PoC_Kubernetes.git
-cd ~/Rancher/vagrant 
+cd ./PoC_Kubernetes/Rancher/vagrant
 vagrant up 
 ```
 ### Setup Services
