@@ -11,13 +11,13 @@
 
 ## Installation
 
-Setup VMs
+### Setup VMs
 *	$ git clone https://github.com/r0ry/PoC_Kubernetes.git
 *	$ cd ~/Rancher/vagrant 
 *	$ vagrant up 
-Setup Services
+### Setup Services
 *	Open in browser 172.22.101.101 (may depend on your VM setup)
-o	Default credentials: admin/admin 
+    * Default credentials: admin/admin 
 
 *	Deploy workloads ( rancher docs ) 
 NOTE: Consul needs to be deployed first and the values in the fields must match exactly for Service Discovery to work properly. This is explained further down.
