@@ -61,13 +61,15 @@ Routing, Authentication and Authorization is done according to the docs: [Ocelot
 
 ## Postman Testing
 
-Request token from IdServer. Use Type OAuth 2.0 with parameters:
+1. Request token from IdServer. Use Type OAuth 2.0 with parameters:
+
 *	Grant Type: Client Credentials
 *	Access Token URL: <idserver_ip/port>/connect/token
 *	Client Id: ocelot
 *	Client Secret: secret
 *	Scope: gwapi
-Http GET <ocelot_ip/port>/<endpoint>
+
+2. GET <ocelot_ip/port>/<endpoint>
 
 ![Alt Text](http://g.recordit.co/2nvLlcMIEp.gif)
 
