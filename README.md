@@ -69,7 +69,7 @@ Routing, Authentication and Authorization is done according to the docs: [Ocelot
     *	Client Secret: secret
     *	Scope: gwapi
 
-* GET <ocelot_ip/port>/ <endpoint>
+* GET <ocelot_ip/port/api_route>
 
 ![Alt Text](http://g.recordit.co/2nvLlcMIEp.gif)
 
