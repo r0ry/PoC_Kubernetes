@@ -12,9 +12,11 @@
 ## Installation
 
 ### Setup VMs
-*	$ git clone https://github.com/r0ry/PoC_Kubernetes.git
-*	$ cd ~/Rancher/vagrant 
-*	$ vagrant up 
+```
+git clone https://github.com/r0ry/PoC_Kubernetes.git
+cd ~/Rancher/vagrant 
+vagrant up 
+```
 ### Setup Services
 *	Open in browser 172.22.101.101 (may depend on your VM setup)
     * Default credentials: admin/admin 
