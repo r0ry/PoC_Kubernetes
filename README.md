@@ -64,12 +64,12 @@ Routing, Authentication and Authorization is done according to the docs: [Ocelot
 * Request token from IdServer. Use Type OAuth 2.0 with parameters:
 
     *	Grant Type: Client Credentials
-    *	Access Token URL: __http://idserver_address/connect/token__
+    *	Access Token URL: __http://idserver_address/connect/token__**
     *	Client Id: ocelot
     *	Client Secret: secret
     *	Scope: gwapi
 
-* GET __htto://ocelot_address/api_route__
+* GET __http://ocelot_address/api_route__**
 
 ![Alt Text](http://g.recordit.co/2nvLlcMIEp.gif)
 
