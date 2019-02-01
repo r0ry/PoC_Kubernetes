@@ -21,7 +21,7 @@ vagrant up
 *	Open in browser 172.22.101.101 (may depend on your VM setup)
     * Default credentials: admin/admin 
 
-*	Deploy workloads ( [Rancher_Docs](https://rancher.com/docs/rancher/v2.x/en/k8s-in-rancher/workloads/deploy-workloads/) ) 
+*	Deploy workloads ( [Rancher_Docs](https://rancher.com/docs/rancher/v2.x/en/k8s-in-rancher/workloads/deploy-workloads/) ) __
 NOTE: Consul needs to be deployed first and the values in the fields must match exactly for Service Discovery to work properly. This is explained further down.
 
 ![Alt Text](http://g.recordit.co/VGTwAzcq4A.gif)
