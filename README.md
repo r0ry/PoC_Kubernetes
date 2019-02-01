@@ -48,7 +48,7 @@ NOTE: Consul needs to be deployed first and the values in the fields must match 
 *	When registering to Consul services use Rancher’s service discovery - [link](https://rancher.com/docs/rancher/v2.x/en/k8s-in-rancher/service-discovery/)
 *	Once they are registered OcelotGw uses this information to reroute, auth and authz 
 
-![Alt_Text](https://imgur.com/a/qxCmRft)
+![Alt_Text](https://i.imgur.com/AmeTF3E.png)
 
 ## Identity Server
 
