@@ -55,11 +55,11 @@ Client Credentials Flow is used to request tokens.
 
 ![Alt_Text](https://i0.wp.com/www.bubblecode.net/wp-content/uploads/2013/03/client_credentials_flow.png?resize=525%2C396)
 
-Client_id, Client_secret, Scopes and Claims are stored in memory. These are further used by Ocelot to authenticate and authorize the client.
+Client_id, Client_secret, Scopes and Claims are stored in memory. These are further used by Ocelot to authenticate and authorise the client.
 
 ## OcelotGateway  
 
-Routing, Authentication and Authorization is done according to the docs: [Ocelot](https://ocelot.readthedocs.io/en/latest/index.html)
+Routing, Authentication and Authorisation is done according to the docs: [Ocelot](https://ocelot.readthedocs.io/en/latest/index.html)
 
 ## Postman Testing
 
